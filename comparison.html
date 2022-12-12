@@ -52,57 +52,45 @@
     <!-- Start of container -->
     <div class="container">
         <div class="row">
-            <div class="col-lg-7 col-md-12">
-                <div class="box" style="padding-bottom: 5px;">
-                    <h3 class="title">Summary: Latitude vs. X</h3>
-                    <hr>
-                    <img src="assets/images/Fig1.png" class="vizualization rounded float-left" alt="Max Temperature Graph">
-                    <p> The purpose of this project was to analyze how the weather of over 500 cities across the world differs in relation to 
-                      their proximity to the equator. To complete this analysis, OpenWeatherMap API generated a random dataset of
-                      cities to be used to create a representative model of weather across these world cities.</p>
-                      <br>
-                    <p> Matplotlib was used to build plots that represent the relationships between several variables
-                      of weather vs. latitude. The relationships analyzed with Latitude included: Temperature (F), Humidity (%),
-                      Cloudiness (%), and Wind Speed (mph).</p>
-                      <br>
-                    <p> Data and visualizations are are provided as part of the analysis, including explanations and descriptions
-                      of trends and correlations.</p>
+          <div>
+            <div class="box">
+              <h3 class="title">Comparison: Latitude vs. X</h3>
+              <hr>
+              <p>Click any graph for more information.</p>
+              <div class="container" style="padding-bottom: 40px;">
+                <div class="row" >
+                  <div class="col-md-6 col-sm-12" style="padding: 30px;">
+                    <div class="title">vs. Max Temperature</div>
+                    <a href="visualizations/temp.html">
+                      <img class="panel" src="assets/images/Fig1.png" alt="Max Temperature Graph">
+                    </a>
+                  </div>
+                  <div class="col-md-6 col-sm-12" style="padding: 30px;">
+                    <div class="title">vs. Humidity</div>
+                    <a href="visualizations/humidity.html">
+                      <img class="panel" src="assets/images/Fig2.png" alt="Humidity Graph">
+                    </a>
+                  </div>
                 </div>
-            </div>
-            <div class="col-lg-5 col-md-12">
-                <div class="box">
-                    <h3 class="title">Visualizations</h3>
-                    <hr>
-                    <div class="container">
-                        <div class="row" style="padding-bottom: 30px;">
-                            <div class="col-6">
-                                <a href="visualizations/temperature.html">
-                                <img class="panel" src="assets/images/Fig1.png" alt="Max Temperature Graph">
-                                </a>
-                            </div>
-                            <div class="col-6">
-                                <a href="visualizations/humidity.html">
-                                <img class="panel" src="assets/images/Fig2.png" alt="Humidity Graph">
-                                </a>
-                            </div>
-                        </div>
-                        <div class="row" style="padding-bottom: 30px;">
-                            <div class="col-6">
-                                <a href="visualizations/cloudiness.html">
-                                <img class="panel" src="assets/images/Fig3.png" alt="Cloudiness Graph">
-                                </a>
-                            </div>
-                            <div class="col-6">
-                                <a href="visualizations/wind.html">
-                                    <img class="panel" src="assets/images/Fig4.png" alt="Wind Speed Graph">
-                                </a>
-                            </div>
-                        </div>
-                    </div>
+                <div class="row">
+                  <div class="col-md-6 col-sm-12" style="padding: 30px;">
+                    <div class="title">vs. Cloudiness</div>
+                    <a href="visualizations/cloudiness.html">
+                      <img class="panel" src="assets/images/Fig3.png" alt="Cloudiness Graph">
+                    </a>
+                  </div>
+                  <div class="col-md-6 col-sm-12" style="padding: 30px;">
+                    <div class="title">vs. Wind Speed</div>
+                    <a href="visualizations/wind.html">
+                      <img class="panel" src="assets/images/Fig4.png" alt="Wind Speed Graph">
+                    </a>
+                  </div>          
                 </div>
+              </div>
             </div>
+          </div>
         </div>
-    </div>
+      </div>
     <!-- End of container -->
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
